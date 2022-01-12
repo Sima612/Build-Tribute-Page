@@ -3,21 +3,22 @@
     height: 100%;
     background-color: lightgray;
 }
-#image {
-    width: 75%;
-}
-#div-container1 {
-    width: 50%;
+#img-div {
+    max-width: 50%;
     text-align: center;
     margin: 1em auto;
-    padding: 0.5em;
+    padding: 0.5em 2em;
     font-weight: bold;
     background-color: whitesmoke;
     opacity: 0.9;
-    box-shadow: lightgray;
+    box-shadow: 5px 5px 20px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
 }
 
-#section-container {
+#tribute-info {
     width: 50%;
     padding: 0 1em;
     margin: auto;
@@ -30,7 +31,7 @@
 #timeline {
     text-align: center;
 }
-#tribute-info {
+#tribute-quote {
     width: 50%;
     margin: auto;
     text-align: center;
